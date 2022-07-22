@@ -1,5 +1,6 @@
 // Inspection submission forms visibility
 
+
 InspectionForm
 If(varIR || varExitSurvey = false, true)
 
@@ -8,3 +9,4 @@ If(varIR,true)
 
 ExitSurveyForm
 If(varExitSurvey,true)
+
