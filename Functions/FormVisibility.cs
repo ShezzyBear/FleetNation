@@ -2,7 +2,7 @@
 
 
 InspectionForm
-If(varIR || varExitSurvey = false, true)
+If(varIR = false && varExitSurvey = false, true, false)
 
 IncidentForm
 If(varIR,true)
